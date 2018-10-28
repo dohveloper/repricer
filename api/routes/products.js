@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-
+//test
 router.get("/", (req, res, next) => {
   // DB에 있는 모든상품 가져온다.
     res.status(200).json({
